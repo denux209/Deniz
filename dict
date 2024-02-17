@@ -1,0 +1,15 @@
+meme_dict = {
+            "lol": "komik bir şeye verilen cevap",
+            "cringe": "garip ya da utandırıcı bir şey",
+            "rofl": "bir şakaya karşılık cevap",
+            "sheesh": "onaylamamak",
+            "creepy": "korkunç",
+            "aggro": "agresifleşmek/sinirlenmek",
+            }
+    print("Öncelikle salam")
+for i in range(5):
+    word = input("Anlamadığınız bir kelime yazın: ").lower()
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("Bu kelimeyi bilmiyorum")
